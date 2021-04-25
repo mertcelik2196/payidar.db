@@ -13,10 +13,10 @@ npm install payidar.db
 
 ## Nasıl Kullanılır? 💫
 
-# JS Sql
+# JS
 ```js
-const Database = require("../lib/index");
-const db = new Database.Sql();
+const Payidar = require("payidar.db");
+const db = new Payidar.Database();
 
 // Set data
 db.set("Hello", "World");
